@@ -20,7 +20,7 @@ from utils.data_loading import BasicDataset, CarvanaDataset
 from utils.dice_score import dice_loss
 
 dir_img = Path('./data/imgs/')
-dir_mask = Path('./data/masks/')
+dir_mask = Path('./data/masks_clean/')
 dir_checkpoint = Path('./checkpoints/')
 
 
